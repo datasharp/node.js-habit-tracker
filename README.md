@@ -8,7 +8,7 @@ This project is designed to run locally and is set up to handle secrets securely
 ## Prerequisites
 Before running the project, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (latest LTS version recommended)
+- [Node.js](https://nodejs.org/) 
 - [MongoDB](https://www.mongodb.com/) (if using a local database instance)
 - A text editor like [VS Code](https://code.visualstudio.com/)
 
