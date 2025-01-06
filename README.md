@@ -30,6 +30,7 @@ Add the following environment variables to the .env file:
 Example .env file:
 
 MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/mydb
+
 PORT=3000
 
 Replace the values with your actual credentials or values.
