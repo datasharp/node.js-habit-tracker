@@ -1,0 +1,88 @@
+### CREATE five documents.
+POST http://localhost:3000/hobbies HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Guitar",
+    "duration": 60, 
+    "dateCompleted": "03-01-2024",
+    "type": "Inside"
+}
+
+
+### CREATE 2
+POST http://localhost:3000/hobbies HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Working Out",
+    "duration": 60, 
+    "dateCompleted": "03-01-2024",
+    "type": "Fitness"
+}
+
+### CREATE 3
+POST http://localhost:3000/hobbies HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Studying",
+    "duration": 30, 
+    "dateCompleted": "02-29-2024",
+    "type": "Inside"
+}
+
+### CREATE 4
+POST http://localhost:3000/hobbies HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Reading",
+    "duration": 60, 
+    "dateCompleted": "02-28-2024",
+    "type": "Inside"
+}
+
+### CREATE 5
+POST http://localhost:3000/hobbies HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Kettlebell",
+    "duration": 20,
+    "dateCompleted": "02-28-2024",
+    "type": "Fitness"
+}
+
+### RETRIEVE all documents.
+GET http://localhost:3000/hobbies HTTP/1.1
+
+
+
+### RETRIEVE a document by its ID.
+### Replace the following ID with one that exists in the collection.
+GET http://localhost:3000/hobbies/65e264694bf33165f357de8f HTTP/1.1
+
+
+### UPDATE one document's year, by ID.
+### Replace the ID in the following request with one that exists
+### and update the name and duration:
+PUT http://localhost:3000/hobbies/65e264694bf33165f357de8f HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Work out",
+    "duration": 20, 
+    "dateCompleted": "03-01-2024",
+    "type": "Fitness"
+}
+
+### DELETE by ID (responds with nothing if successful):
+DELETE http://localhost:3000/hobbies/65e264694bf33165f357de8f HTTP/1.1
+
+
+
+### RETRIEVE all documents (responds with 4 or the original 5):
+GET http://localhost:3000/hobbies HTTP/1.1
+
+
