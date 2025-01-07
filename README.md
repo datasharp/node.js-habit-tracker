@@ -3,7 +3,9 @@
 ## Overview
 This project is designed to run locally and is set up to handle secrets securely using environment variables. Follow the instructions below to set up and run the project on your local machine.
 
+
 ---
+
 
 ## Prerequisites
 Before running the project, ensure you have the following installed:
@@ -46,7 +48,7 @@ To run the application locally, you need to start both the backend and the front
 
 Navigate to the backend directory:
  ```bash
- cd a7-sharkayl-backend
+ cd backend
 ```
 
 Install backend dependencies:
@@ -66,7 +68,7 @@ The backend server will run at http://localhost:3000
 Open a new terminal and navigate to the frontend directory:
 
 ```bash
-cd movies-frontend-starter-1123
+cd frontend
 ```
 
 Install frontend dependencies:
