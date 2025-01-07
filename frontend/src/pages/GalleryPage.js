@@ -68,6 +68,7 @@ function GalleryPage() {
   return (
     <>
       <h2>Gallery</h2>
+      <p>These are pictures from some of the projects I have worked on. Please visit https://datasharp.github.io/ to see more.</p>
       <article>
         <ImageGallery items={images} />
       </article>
